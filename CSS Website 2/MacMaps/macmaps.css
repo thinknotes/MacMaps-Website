@@ -1,0 +1,401 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    height: 3900px;
+}
+
+h2 {
+    color: white;
+    
+
+}
+
+p {
+    color: white;
+    
+}
+
+.div0 {
+    padding: 10px;
+    /* offset: -100px; */
+    text-align: left;
+}
+
+.div1 {
+    text-align: right;
+    padding: 10px;
+    /* offset: -100px; */
+}
+
+.div2 {
+    text-align: left;
+    padding: 10px;
+    /* offset: -30px; */
+}
+
+
+.div3 {
+    text-align: right;
+    padding: 10px;
+    /* offset: -30px; */
+}
+
+.div4 {
+    text-align: right;
+    padding: 10px;
+  
+}
+
+.faceview i {
+    width: 300px;
+    height: 300px;
+}
+
+i {
+    color: #fff;
+    /* width: 50px;
+    height: 50px; */
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.navimg {
+    border-radius: 20px;
+    image-resolution:initial;
+    height: 1100px;
+}
+
+/* Nav Bar Css */
+
+
+.nav{
+    background-color: #46494c;
+    /* height: 2rem; */
+    /* position: fixed; */
+    position: sticky;
+    /* top: 0;
+    left: 0; */
+    width:  100vw;
+    padding: 1rem;
+    display: flex;
+    /* padding: 10rem 100rem; */
+    /* border: 1px solid red; */
+    gap: 55%;
+    
+  
+
+}
+
+ 
+nav .link {
+    display: flex;
+    /* border: 1px solid black; */
+    /* border: 1px solid black; */
+}
+
+.nav .logo {
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+.logo {
+    list-style: none;
+}
+
+.nav {
+    /* justify-content: space-around; */
+    
+}
+
+a {
+    color: silver;
+    text-decoration: none;
+}
+
+.nav .link {
+    column-gap: 1rem;
+    list-style: none;
+}
+
+.right {
+    margin: 0;
+    float: right;
+}
+
+/* .closedbtn {
+    color: white;
+} */
+
+.nav
+.nav .closedbtn {
+    /* display: none; */
+    display: block;
+}
+
+.openbtn {
+    display: none;
+}
+
+/* .closedbtn {
+    background-color: #fff;
+} */
+
+/* li:hover {
+    background: #fff;
+} */
+
+.home {
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+.select-menu {
+    width: 200px;
+    /* margin: 20px auto; */
+}
+
+.select-menu .select-btn {
+    display: flex;
+    height: 20px;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-btn i {
+    font-size: 25px;
+    padding: 10px auto;
+}
+
+.select-menu.active .select-btn i {
+    transform: rotate(-180deg);
+}
+
+.select-menu .options {
+    position: relative;
+    /* padding: 1rem; */
+    padding: 10px;
+    /* margin-top: 10px; */
+    border-radius: 8px;
+    background: #fff;
+    display: none;
+}
+
+.select-menu.active .options {
+    display: block;
+}
+
+.options .option {
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    padding: 0px 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+
+.options .option:hover {
+    background: #f2f2f2;
+}
+
+option i {
+    font-size: 1rem;
+    margin-right: 12px;
+}
+
+.option .option-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer css code  */ 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #46494c;
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+}
+
+
+footer .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+footer .container .sec h2 {
+    position: relative;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    /* padding: 0.6rem; */
+}
+
+footer .container .sec p {
+    color: white;
+    padding: 0.6rem;
+}
+
+footer .container .sci {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 3.1rem);
+}
+
+footer .container .sci li a {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    display: grid;
+    /* background-color: black; */
+    color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container .quicklinks {
+    position: relative;
+}
+
+footer .container .quicklinks ul li {
+    list-style: none;
+}
+
+footer .container .quicklinks ul li a {
+    color: silver;
+    text-decoration: none;
+    margin-bottom: 0.6rem;
+    display: inline-block;
+}
+
+footer .container .contact  .info li {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    margin-bottom: 1rem;
+}
+
+footer .container .contact .info li span {
+    color: silver;
+    font-size: 1rem;
+}
+
+footer .container .contact .info li a {
+    color: silver;
+    text-decoration: none;
+}
+
+.copyrightText {
+    width: 100%;
+    background: #46494c;
+    padding: 1rem 6.25rem 2rem;
+    text-align: center;
+    color: #555;
+    font-size: 0.8rem;
+    
+}
+
+footer span {
+    /* border: 1px solid black; */
+    padding-top: 70%;
+}
+
+/* i:hover {
+   background: #fff;
+} */
+
+/* 
+Media for responsive desgin */
+
+@media screen and (max-width: 950px) {
+    .nav {
+       padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .nav ,       
+   .nav .closedbtn {
+   display: block;
+  } 
+
+  .openbtn {
+   display: none;
+  }
+
+   .openbtn 
+   .searchbox {
+   border: 1px solid green;
+   padding: 0.1rem;
+   display: none;
+   /* background-color: green; */
+
+   } 
+
+   .nav, .link {
+       position: fixed;
+       /* top: 0;
+       left: 0; */
+       height: 100%;
+       max-width: 19.5rem;      
+       width: 100%;
+       padding-top: 16.5rem;
+       row-gap: 2rem;
+       flex-direction: column;
+       /* background-color: aliceblue; */
+       transition: all 0.4s ease;
+    } 
+  /* 17.5  */
+   .nav.openNav .link {
+        left: 0;
+   } 
+    .nav .openbtn {
+       color: black;
+       font-size: 1rem;
+       cursor: pointer;
+   } 
+
+    .nav .closedbtn {
+       position: absolute;
+       margin-top: -32rem;
+       right: 3rem; 
+       color: black;
+       font-size: 1rem;
+       cursor: pointer;
+       text-align: left;
+       /* border: solid 1px black; */
+   }
+
+   .openbtn {
+       cursor: pointer;;
+
+   }
+
+      footer {
+        display: none;
+
+      } 
+
+    .logo{
+        position: absolute;
+        top: 2rem;
+    }
+
+} 
